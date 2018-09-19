@@ -1,0 +1,234 @@
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 48pt;
+	margin: 0 auto;
+	width: 50%;
+	background-color: rgb(9, 9, 179);
+	animation: INFINITYSTONES 10s infinite;
+}
+
+.background{
+	background-size: 100%;
+	background-image: url('../images/avengersbg.jpg');
+}
+
+.grandparent{
+	opacity: .9;
+	height: 100vh;
+	display: flex;
+
+}
+
+.parent{
+	margin: auto;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 600px;
+	width: 525px;
+}
+
+.inputfield{
+	min-width: 0;
+	height: 150px;
+	width: 525px;
+	flex: 1;
+	min-width: 0;
+}
+
+.line{
+	min-width: 0;
+	height: 90px;
+	width: 550px;
+	flex: 1;
+}	
+
+input[ type= "button"], input[type= "reset"]{
+	height: 90%;
+	width: 23.5%;
+	font-size: 20pt;
+	background-color: rgb(9, 9, 179);
+	animation: INFINITYSTONES 10s infinite;
+}
+
+
+input[ type="text"]{
+	height: 96%;
+	width: 96.5%;
+	font-size: 50pt;
+}
+
+@keyframes INFINITYSTONES{
+	0%{
+		background-color: rgb(139,0,0);
+	}
+	20%{
+		background-color: rgb(15,82,186);
+	}
+	40%{
+		background-color: rgb(255,140,0)
+	}
+	60%{
+		background-color: rgb(60,179,113);
+	}
+	80%{
+		background-color: rgb(153,153,0);
+	}
+	100%{
+		background-color: rgb(9, 9, 179);
+	}
+}
+
+
+/*= - this is equal*/
+#logo{
+	background-size: cover;
+}
+#logo:hover{
+	background-image: url('../images/logoequals.jpg');
+}
+/*this is the left (*/
+#groot{
+	background-size: cover;
+}
+#groot:hover{
+	background-image: url('../images/grootleft.jpg');
+}
+/*this is right )*/
+#rocket{
+	background-size: cover;
+}
+#rocket:hover{
+	background-image: url('../images/rocketright.jpg');
+}
+/*this is average*/
+#drstrange{
+	background-size: cover;
+}
+#drstrange:hover{
+	background-image: url('../images/drstrangeAVG.jpg');
+}
+/*this is clear/reset*/
+#gamora{
+	background-size: cover;
+}
+#gamora:hover{
+	background-image: url('../images/gamoraCLEAR.jpg');
+}
+/*this is addition*/
+#mantis{
+	background-size: cover;
+}
+#mantis:hover{
+	background-image: url('../images/mantisaddition.jpg');
+}
+/*this is subtraction*/
+#drax{
+	background-size: cover;
+}
+#drax:hover{
+	background-image: url('../images/draxsubtract.jpg');
+}
+/*this is the division*/
+#thanos{
+	background-size: cover;
+}
+#thanos:hover{
+	background-image: url('../images/thanosdivide.jpg');
+}
+/*this is the multiplication*/
+#starlord{ 
+	background-size: cover;
+}
+#starlord:hover {
+	background-image: url('../images/starlordmultiply.jpg')
+}
+/*this is the decimal point*/
+#spider{ 
+	background-size: cover;
+}
+#spider:hover{
+	background-image: url('../images/spidermanDOT.jpg');
+}
+/*this is number 9*/
+#ironman{
+	background-size: cover;
+}
+#ironman:hover{
+	background-image: url('../images/ironman9.jpg');
+}
+/*this is number 8*/
+#scarlet{
+	background-size: cover;
+}
+#scarlet:hover{
+	background-image: url('../images/scarletwitch8.jpg');
+}
+/*this is number 7*/
+#vision{
+	background-size: cover;
+}
+#vision:hover{
+	background-image: url('../images/vision7.jpg')
+}
+/*this is number 6*/
+#loki{
+	background-size: cover;
+}
+#loki:hover{
+	background-image: url('../images/loki6.jpg');
+}
+/*this is number 5*/
+#thor{ 
+	background-size: cover;
+}
+#thor:hover{
+	background-image: url('../images/thor5.jpg')
+}
+/*this is number 4*/
+#blkwidow{ 
+	background-size: cover;
+}
+#blkwidow:hover	{
+	background-image: url("../images/blackwidow4.jpg")
+}
+/*this is number 3*/
+#hulk{
+	background-size: cover;
+}
+#hulk:hover {
+	background-image: url("../images/hulk3.jpg")
+}
+/*this is number two*/
+#winsoldier{
+	background-size: cover;
+}
+#winsoldier:hover{
+	background-image: url("../images/wintersoldier2.jpg")
+}
+/*this is number one*/
+#cpt1{
+	background-size: cover;
+}
+#cpt1:hover{
+	background-image: url("../images/cptamerica1.jpg");
+}
+/*this is number 0*/
+#bpant{
+	background-size: cover;
+}
+#bpant:hover{
+	background-image: url("../images/blackpanther0.jpg");
+}
+
+
+
+
+
+
+
+

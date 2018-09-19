@@ -1,0 +1,63 @@
+<!DOCTYPE >
+<html class="background">
+<head>
+	<title>Averagers</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel='icon' href='avengerslogo.ico' type='image/x-icon'/>
+</head>
+<body>
+	<h1>
+		AVERAGERS
+	</h1>
+	<form NAME="Calc" class="grandparent">
+		<div class="parent">
+				<div class= "inputfield">
+					<input TYPE="text"   NAME="Input">
+				</div>	
+				<!-- <br> -->
+				<div class = "line">
+					<input id="groot" class="button" TYPE="button" NAME="left" VALUE= " ( " OnClick="Calc.Input.value += '(' ">
+					<input id="rocket" class="button" TYPE="button" NAME="right" VALUE= " ) " OnClick="Calc.Input.value += ')' ">
+					<input id ="drstrange" class="button" TYPE="button" NAME="average" VALUE=" MEAN " class="avgbutton" Onclick = "avg()">
+					<input id = "gamora" class="button" TYPE="reset"  NAME="clear" VALUE= " CLEAR " OnClick="Calc.Input.value += '' "> 
+				</div>	
+				<!-- <br> -->
+				<div class= "line"> 
+					<input id = "vision" class="button" TYPE="button" NAME="seven"   VALUE= " 7 " OnClick="Calc.Input.value += '7' "> 
+					<input id = "scarlet" class="button" TYPE="button" NAME="eight"   VALUE= " 8 " OnCLick="Calc.Input.value += '8' ">
+					<input id="ironman" class="button" TYPE="button" NAME="nine"   VALUE= " 9 " OnCLick="Calc.Input.value += '9' ">
+					<input id="mantis" class="button" TYPE="button" NAME="plus"  VALUE= " + " OnClick="Calc.Input.value += '+' ">
+				</div>	
+				 <!-- <br> -->
+				<div class = "line"> 
+					<input id = "blkwidow" class="button" TYPE="button" NAME= "four"  VALUE= " 4 " OnClick="Calc.Input.value += '4' ">
+					<input id = "thor" class="button" TYPE="button" NAME= "five"  VALUE= " 5 " OnClick="Calc.Input.value += '5' ">
+					<input id = "loki" class="button" TYPE="button" NAME= "six"  VALUE= " 6 " OnClick="Calc.Input.value += '6' ">
+					<input id="drax" class="button" TYPE="button" NAME= "minus"  VALUE= " - " OnClick="Calc.Input.value += '-' ">	
+				</div>	
+				<!-- <br> -->
+				<div class = "line">
+					<input id="cpt1" class="button" TYPE="button" NAME= "one"  VALUE= " 1 " OnClick="Calc.Input.value += '1' ">
+					<input id="winsoldier" class="button" TYPE="button" NAME= "two"  VALUE= " 2 " OnClick="Calc.Input.value += '2' ">
+					<input id="hulk" class="button" TYPE="button" NAME= "three"  VALUE= " 3 " OnClick="Calc.Input.value += '3' ">
+					<input id="starlord" class="button" TYPE="button" NAME= "multiply"  VALUE= " * " OnClick="Calc.Input.value += '*' ">
+				</div>	
+				<!-- <br> -->
+				<div class = "line">
+					<input id ="bpant" class="button" TYPE="button" NAME= "0"  VALUE= " 0 " OnClick="Calc.Input.value += '0' ">
+					<input id="spider" class="button" TYPE="button" NAME= "pointdecimal"  VALUE= " . " OnClick="Calc.Input.value += '.' ">
+					<input id="logo" class="button" TYPE="button" NAME="equals"  VALUE= " = " OnClick="Calc.Input.value = eval(Calc.Input.value)">
+					<input id="thanos" class="button" TYPE="button" NAME= "divide"  VALUE= " / " OnClick="Calc.Input.value += '/'">
+				</div>	
+			
+		</div>
+	</form>
+
+	<script type="text/javascript">
+		function avg(){
+			Calc.Input.value = eval(Calc.Input.value) / 
+			Calc.Input.value.split("+").length;
+		}
+	</script>
+</body>
+</html>
